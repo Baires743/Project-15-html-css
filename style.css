@@ -1,6 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
-
+@media (max-width: 768px) {
+    /* Estilos para pantallas con un ancho máximo de 768px, como teléfonos móviles */
+    /* Aquí puedes ajustar el diseño y hacerlo más compacto */
+  }
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    /* Estilos para pantallas con un ancho mínimo de 768px y un ancho máximo de 1024px, como tabletas */
+    /* Aquí puedes ajustar el diseño y redistribuir los elementos para aprovechar mejor el espacio */
+  }
+  
+  @media (min-width: 1025px) {
+    /* Estilos para pantallas con un ancho mínimo de 1025px, como computadoras de escritorio */
+    /* Aquí puedes ajustar el diseño y mostrar más contenido en paralelo */
+  }
+  
 
 *{
     padding: 0;
